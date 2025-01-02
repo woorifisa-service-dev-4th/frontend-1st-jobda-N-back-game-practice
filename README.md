@@ -36,6 +36,21 @@
 <br>
 
 ## 💬 팀 규칙
+### 1. 코드
+- 파일명 '_'(언더바)로 통일 (ex. main_page)
+- prettier 사용하여 정렬 방식 통일
+
+### 2. 브랜치
+- branch 이름은 feat/{feature name}-{name} 으로 통일 (ex. feat/button-hk)
+
+### 3. 커밋 메세지
+- `feat` 새로운 기능을 추가한 경우
+- `fix` 버그를 고친 경우
+- `docs` 문서를 수정한 경우
+- `refactor` 코드 리팩토링에 대한 커밋
+- `rename` 파일 혹은 폴더명을 수정한 경우
+- `remove` 파일을 삭제한 경우
+- ex) feat: button 추가
 <br>
 
 ## 📊Lighthouse를 통한 성능 개선
