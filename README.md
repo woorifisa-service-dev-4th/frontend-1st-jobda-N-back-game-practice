@@ -21,10 +21,10 @@
 
 ## 🖼️ UI 스타일 가이드라인
 ### 폰트 서체 및 사이즈
+https://noonnu.cc/en/font_page/1269
 | font-family | font-size | 
 | --- | --- | 
-| 폰트명 | 폰트 사이즈 |
-| 4 | 5 | 
+| Wanted Sans | 폰트 사이즈 |
 ### 컬러 배색
 - Background Color: white
 - Main Color: #00DDB8
