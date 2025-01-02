@@ -27,9 +27,9 @@
 | 4 | 5 | 
 ### 컬러 배색
 - Background Color: white
-- Main Color: (도형 색상)
-- Sub Color: (타이머 색상)
-- sub2-color: (테두리 색상)
+- Main Color: #00DDB8
+- Sub Color: #6E81C1
+- sub2-color: #F5F5F5
 ### 여백 및 정렬 여부
 - 기본: 중앙 정렬
 - 버튼(ex. 나가기): 오른쪽 하단 정렬
