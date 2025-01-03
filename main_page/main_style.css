@@ -1,0 +1,235 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f5f6f8;
+    flex-direction: column;
+    font-family: 'Wanted Sans', sans-serif;
+}
+
+.white-box {
+    background-color: white;
+    padding: 15px;
+    border-radius: 45px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 65%;
+    height: 65%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-header {
+    position: sticky; /* 부모 안에서 고정 */
+    background-color: white;
+    padding-bottom: 10px;
+    padding: -100px;
+    display: flex; /* 플렉스 레이아웃 사용 */
+    margin-top: x; /* 아래 여백 추가 */
+}
+.current-step {
+    position: relative; 
+    font-weight: bold; /* 굵게 설정 */
+    text-align: left; /* 텍스트 정렬 */
+    display: inline-block; /* 너비 조정 가능 */
+    margin-right: auto; /* 왼쪽으로 치우치게 설정 */
+    left: -120px; /* 왼쪽으로 20px 이동 */ /* 추가적인 왼쪽 여백 */
+
+}
+.main_text { 
+    left: -100px; 
+    position: relative; 
+    text-align: left; /* 텍스트 정렬 */
+    display: inline-block; /* 너비 조정 가능 */
+    margin-right: auto; /* 왼쪽으로 치우치게 설정 */
+
+}
+.total-step {
+    position: relative;
+    font-weight: bold;
+    text-align: right; /* 텍스트 정렬 */
+    display: inline-block; /* 너비 조정 가능 */
+    margin-left: auto; /* 왼쪽으로 치우치게 설정 */
+    right: 0px; 
+    bottom: 5px;
+
+}
+
+.final-step {
+    position: relative;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: right; /* 텍스트 정렬 */
+    display: inline-block; /* 너비 조정 가능 */
+    margin-left: auto; /* 왼쪽으로 치우치게 설정 */
+    right: 0px; 
+    bottom: 15px;
+    color:#281f91;
+
+}
+.box-main {
+    flex: 1; /* 남은 공간을 메인 콘텐츠가 차지 */
+    padding: 20px;
+    display: flex;
+    justify-content: center; /* 수평 중앙 정렬 */
+    align-items: center; /* 수직 중앙 정렬 */
+    line-height: 1.5;
+}
+
+.box2 {
+    background-color: white;
+    border: 1px solid #333;
+    width: 110px; /* 텍스트 길이에 맞게 너비 자동 조정 */
+    height: 40px; /* 높이도 자동 조정 */
+    border-radius: 10px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* 상대적 위치 조정 가능 */
+    right: -50px;
+    bottom: -5px;
+}
+
+
+.box3 {
+    background-color: white;
+    border: 1px solid #333;
+    width: 50px; /* 텍스트 길이에 맞게 너비 자동 조정 */
+    height: 40px;  /* 높이도 자동 조정 */
+    border-radius: 10px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right:-90px;
+    bottom: -5px;
+}
+
+.small-white-box {
+    background-color: white;
+    padding: 5%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    width: 70px;
+    height: 80px;
+    bottom: 170px;
+    left: 500px;
+}
+
+.small-gray-box {
+    background-color: #E7E7E7;
+    padding: 5%;
+    border-radius: 10px;
+    box-shadow:none;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    width: 85%;
+    height: 85%;
+}
+
+
+.centered-text {
+    font-size: 20px; /* 글자 크기 설정 */
+    font-weight: bold; /* 글자 두껍게 */
+    line-height: 1.6; /* 줄 간격 조정 */
+    color: #333; /* 텍스트 색상 */
+    margin-top: -260px; /* 위쪽으로 이동 */
+    text-align: center;
+}
+
+
+.gray-box {
+    background-color: #D5D5D5;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 250px;
+    height: 70px;
+    right: 500px; /* 오른쪽 위치 */
+    bottom: 340px;
+}
+
+.gray-box2 {
+    background-color: #D5D5D5;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 250px;
+    height: 70px;
+    right: 500px; /* 오른쪽 위치 */
+    bottom: 250px;
+}
+
+.gray-box3 {
+    background-color: #D5D5D5;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 250px;
+    height: 70px;
+    right: 500px; /* 오른쪽 위치 */
+    bottom: 160px;
+}
+
+.specific_image {
+    position: relative; /* 위치 이동을 가능하게 함 */
+    left: -20px; /* 왼쪽으로 20px 이동 */
+}
+
+.specific_text {
+    position: relative; /* 위치 이동을 가능하게 함 */
+    right: -20px; /* 왼쪽으로 20px 이동 */
+}
+
+
+
+
+.progress-container {
+    width: 100%; /* .white-box의 100%에 맞추기 */
+    display: flex;
+    justify-content: left; /* 중앙 정렬 */
+    margin-bottom: auto; /* 위쪽과 간격 */
+}
+
+
+progress {
+    width: 100%; /* .white-box의 너비에 맞춤 */
+    height: 10px; /* 진행 바 높이 */
+    margin-bottom: 0px;
+    appearance: none;
+}
+
+#progress::-webkit-progress-bar {
+    background:#d3d1eb;
+    border: 1px solid #eeeeee;
+    overflow: hidden;
+    margin: 0 auto; /* 중앙 정렬 */
+  }
+
+#progress::-webkit-progress-value {
+    background: #281f91;
+    border-radius: 0px;
+
+}
