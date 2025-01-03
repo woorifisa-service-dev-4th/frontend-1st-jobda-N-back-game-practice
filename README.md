@@ -16,7 +16,7 @@
 <br>
 
 ## 👀 실행 화면
-
+![도형기억하기게임](https://github.com/user-attachments/assets/7ba4a9f7-74b7-4946-bc09-c38245bd429c)
 <br>
 
 ## 🖼️ UI 스타일 가이드라인
@@ -27,10 +27,7 @@
 ### 폰트 사이즈
 - 대부분의 폰트 사이즈는 16px로 고정
 ### 컬러 배색
-- **Background Color**: <span style="color: white">White</span>
-- **Main Color**: <span style="color: #00DDB8">#00DDB8</span>
-- **Sub Color**: <span style="color: #6E81C1">#6E81C1</span>
-- **Sub2 Color**: <span style="color: #F5F5F5">#F5F5F5</span>
+![color](https://files.slack.com/files-pri/T086KSV1EPK-F087J6XGXJ5/_____________.png?is_viewed=1)
 ### 여백 및 정렬 여부
 - 기본: 중앙 정렬
 - 버튼(ex. 나가기): 오른쪽 하단 정렬
