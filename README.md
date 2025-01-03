@@ -27,7 +27,7 @@
 ### 폰트 사이즈
 - 대부분의 폰트 사이즈는 16px로 고정
 ### 컬러 배색
-![color](https://files.slack.com/files-pri/T086KSV1EPK-F087J6XGXJ5/_____________.png?is_viewed=1)
+![제목 없음](https://github.com/user-attachments/assets/39618556-8c47-4c77-ab5a-6e0f0cd89037)
 ### 여백 및 정렬 여부
 - 기본: 중앙 정렬
 - 버튼(ex. 나가기): 오른쪽 하단 정렬
