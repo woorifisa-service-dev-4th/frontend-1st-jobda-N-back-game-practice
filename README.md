@@ -27,10 +27,10 @@
 ### 폰트 사이즈
 - 대부분의 폰트 사이즈는 16px로 고정
 ### 컬러 배색
-- Background Color: <span style="background-color:white">White</span>
-- Main Color: <span style="background-color:#00DDB8">#00DDB8</span>
-- Sub Color: <span style="background-color:#6E81C1">#6E81C1</span>
-- sub2-color: <span style="background-color:#F5F5F5">#F5F5F5</span>
+- Background Color: <span style="background-color: white">White</span>
+- Main Color: <span style="background-color: #00ddb8">#00DDB8</span>
+- Sub Color: <span style="background-color: #6E81C1">#6E81C1</span>
+- sub2-color: <span style='background-color: #F5F5F5'>#F5F5F5</span>
 ### 여백 및 정렬 여부
 - 기본: 중앙 정렬
 - 버튼(ex. 나가기): 오른쪽 하단 정렬
