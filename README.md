@@ -53,3 +53,4 @@
 <br>
 
 ## 📊Lighthouse를 통한 성능 개선
+<img width="715" alt="스크린샷 2025-01-03 오후 5 20 36" src="https://github.com/user-attachments/assets/022f31ed-7754-4082-9303-a4f5c858f905" />
