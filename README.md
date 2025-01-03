@@ -4,8 +4,8 @@
 ## 👨‍💻 팀원 소개
 | 임지섭 | 이현경 | 윤선영 |
 | --- | --- | --- |
-| 사진 | 2 | 3 |
-| 역할 | 5 | 6 |
+| ![js](https://avatars.githubusercontent.com/icebear0111) | ![hk](https://avatars.githubusercontent.com/LeeHyunKyeong) | ![sy](https://avatars.githubusercontent.com/yunsy1103) |
+| HTMl, CSS | HTML, CSS, README | HTML, CSS |
 <br>
 
 ## 💡 프로젝트 소개
@@ -21,10 +21,11 @@
 
 ## 🖼️ UI 스타일 가이드라인
 ### 폰트 서체 및 사이즈
-https://noonnu.cc/en/font_page/1269
-| font-family | font-size | 
-| --- | --- | 
-| Wanted Sans | 폰트 사이즈 |
+[https://fonts.google.com/noto/specimen/Noto+Sans+KR]
+### Font
+- Noto Sans KR
+### Font Size
+- 대부분의 폰트 사이즈는 16px로 고정
 ### 컬러 배색
 - Background Color: white
 - Main Color: #00DDB8
