@@ -66,3 +66,23 @@ body {
     0% {width: 0%;}
     100% {width: 100%;}
 }
+
+.round-button {
+    display: inline-block;
+    padding: 1vw 3vw;
+    font-size: 1vw;
+    font-weight: bold;
+    color: white;
+    background-color: #5878cf;
+    border: none;
+    border-radius: 70px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    text-align: center;
+    font-family: 'Wanted Sans', sans-serif;
+    margin: 25% 0;
+}
+
+.round-button:hover {
+    background-color: darkblue;
+}
