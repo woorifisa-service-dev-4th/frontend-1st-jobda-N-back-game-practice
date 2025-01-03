@@ -210,28 +210,27 @@ body {
 
 .progress-container {
     width: 100%; /* .white-box의 100%에 맞추기 */
+    background:#d3d1eb;
     display: flex;
+    height: 10px;
+    border-radius: 10px;
     justify-content: left; /* 중앙 정렬 */
     margin-bottom: auto; /* 위쪽과 간격 */
 }
 
-
-progress {
-    width: 100%; /* .white-box의 너비에 맞춤 */
-    height: 10px; /* 진행 바 높이 */
-    margin-bottom: 0px;
-    appearance: none;
+.progress-bar {
+    width: 0%;
+    height: 10px;
+    background: #281f91;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    animation: progress 10s linear forwards;
 }
 
-#progress::-webkit-progress-bar {
-    background:#d3d1eb;
-    border: 1px solid #eeeeee;
-    overflow: hidden;
-    margin: 0 auto; /* 중앙 정렬 */
-  }
-
-#progress::-webkit-progress-value {
-    background: #281f91;
-    border-radius: 0px;
-
+@keyframes progress {
+    0% {width: 0%;}
+    100% {width: 100%;}
 }
