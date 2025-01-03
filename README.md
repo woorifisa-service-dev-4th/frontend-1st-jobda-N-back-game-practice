@@ -22,9 +22,9 @@
 ## 🖼️ UI 스타일 가이드라인
 ### 폰트 서체 및 사이즈
 [https://fonts.google.com/noto/specimen/Noto+Sans+KR]
-### Font
+### 폰트 서체
 - Noto Sans KR
-### Font Size
+### 폰트 사이즈
 - 대부분의 폰트 사이즈는 16px로 고정
 ### 컬러 배색
 - Background Color: white
