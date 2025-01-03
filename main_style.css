@@ -7,9 +7,8 @@ body {
     margin: 0;
     background-color: #f5f6f8;
     flex-direction: column;
-    font-family: 'Wanted Sans', sans-serif;
+    font-family: 'Wanted Sans',sans-serif;
 }
-
 
 .white-box {
     background-color: white;
@@ -45,9 +44,9 @@ body {
 .main_text { 
     left: -100px; 
     position: relative; 
-    text-align: left; /* 텍스트 정렬 */
-    display: inline-block; /* 너비 조정 가능 */
-    margin-right: auto; /* 왼쪽으로 치우치게 설정 */
+    text-align: left; 
+    display: inline-block; 
+    margin-right: auto;
 
 }
 .total-step {
