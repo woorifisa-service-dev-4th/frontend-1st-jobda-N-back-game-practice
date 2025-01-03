@@ -1,4 +1,4 @@
-@import url('https://fastly.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.1/packages/wanted-sans/fonts/webfonts/variable/split/WantedSansVariable.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
 
 body {
     display: flex;
@@ -8,13 +8,12 @@ body {
     margin: 0;
     background-color: #f5f6f8;
     flex-direction: column;
-    font-family: 'Wanted Sans', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 
 h1 {
     margin: 5% 0;
     font-size: 3vw;
-    /* position: relative; */
 }
 
 .white-box {
