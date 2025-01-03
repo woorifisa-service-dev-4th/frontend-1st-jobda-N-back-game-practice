@@ -12,7 +12,7 @@ body {
 
 .white-box {
     background-color: white;
-    padding: 15px;
+    padding: 5%;
     border-radius: 45px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     width: 65%;
@@ -226,7 +226,7 @@ body {
     color: white;
     font-weight: bold;
     border-radius: 10px;
-    animation: progress 10s linear forwards;
+    animation: progress 3s linear forwards;
 }
 
 @keyframes progress {
