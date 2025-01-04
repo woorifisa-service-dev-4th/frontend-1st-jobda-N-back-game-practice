@@ -17,8 +17,7 @@
 <br>
 
 ## 👀 실행 화면
-![도형기억하기게임 (1)](https://github.com/user-attachments/assets/1c3795ab-c0ca-4269-8fcc-ecda3e731a77)
-
+![video](https://github.com/user-attachments/assets/81282fdf-3ade-47d4-a884-3656e5410674)
 <br>
 
 ## 🖼️ UI 스타일 가이드라인
