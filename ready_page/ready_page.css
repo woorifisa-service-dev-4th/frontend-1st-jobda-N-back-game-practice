@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap");
 
 body {
     display: flex;
@@ -63,8 +63,12 @@ body {
 }
 
 @keyframes progress {
-    0% {width: 0%;}
-    100% {width: 100%;}
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 100%;
+    }
 }
 
 .round-button {
@@ -79,7 +83,7 @@ body {
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
     cursor: pointer;
     text-align: center;
-    font-family: 'Wanted Sans', sans-serif;
+    font-family: "Wanted Sans", sans-serif;
     margin: 25% 0;
 }
 
