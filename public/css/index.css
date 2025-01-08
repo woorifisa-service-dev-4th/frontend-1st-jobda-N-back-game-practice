@@ -13,21 +13,21 @@ body {
 
 h1 {
     margin: 5% 0;
-    font-size: 3vw;
+    font-size: 2.5vw;
 }
 
 .white-box {
     background-color: white;
-    padding: 5%;
+    padding: 40px;
     border-radius: 45px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     width: 80%;
     height: 65%;
     display: flex;
     text-align: center;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .shapes-container {
@@ -39,16 +39,11 @@ h1 {
     margin: 5% 0;
 }
 
-.shape-odd {
+.shape {
     width: 4vw;
     height: 4vw;
-    animation: bounce 1s infinite;
-}
-
-.shape-even {
-    width: 4vw;
-    height: 4vw;
-    animation: bounce 1.6s infinite;
+    animation: bounce 2s infinite;
+    animation-delay: calc(var(--random) * 1s);
 }
 
 @keyframes bounce {
@@ -69,8 +64,8 @@ h1 {
 
 .round-button {
     display: inline-block;
-    padding: 1.5vw 3vw;
-    font-size: 1.5vw;
+    padding: 1vw 3vw;
+    font-size: 1vw;
     font-weight: bold;
     color: white;
     background-color: #00ddb8;

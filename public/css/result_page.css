@@ -12,26 +12,49 @@ body {
 
 .white-box {
     background-color: white;
-    padding: 0px 30px;
+    padding: 40px;
     border-radius: 45px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     width: 80%;
     height: 65%;
     display: flex;
     text-align: center;
+    justify-content: space-between;
+    align-items: center;
     flex-direction: column;
+}
+
+header {
+    width: 100%;
+    display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
+    margin-top: 50px;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .title {
     margin: 1px 0;
+    font-size: 3em;
 }
 
 .description {
     margin-bottom: 30px;
-    font-size: 15px;
+    font-size: 1.5em;
     color: #333;
 }
 
@@ -93,9 +116,6 @@ body {
 }
 
 .main-button {
-    position: absolute;
-    bottom: 40px;
-    right: 50px;
     padding: 10px; /* 버튼 크기 */
     cursor: pointer;
     background-color: white;
