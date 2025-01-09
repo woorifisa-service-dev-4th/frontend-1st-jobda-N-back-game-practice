@@ -5,7 +5,7 @@
 | 임지섭 | 이현경 | 윤선영 |
 | --- | --- | --- |
 | ![js](https://avatars.githubusercontent.com/icebear0111) | ![hk](https://avatars.githubusercontent.com/LeeHyunKyeong) | ![sy](https://avatars.githubusercontent.com/yunsy1103) |
-| HTML, CSS | HTML, CSS, README | HTML, CSS |
+| HTML, CSS, JS | HTML, CSS, JS, README | HTML, CSS, JS |
 <br>
 
 ## 💡 프로젝트 소개
@@ -16,8 +16,16 @@
 - 이 서비스는 사용자들에게 정확한 피드백을 제공하여 효과적으로 연습할 수 있도록 돕는 것을 목표로 합니다.
 <br>
 
+## 주요 기능
+- 랜덤한 도형을 사용자 화면에 제시
+  - 2번째 전 도형과 3번째 전 도형이 일치하지 않도록 로직 구현
+- 사용자의 키보드 입력을 저장
+- 제시되는 도형에 맞는 정답 저장
+- 사용자 입력과 정답을 비교하여 결과 제시
+<br>
+  
 ## 👀 실행 화면
-![video](https://github.com/user-attachments/assets/81282fdf-3ade-47d4-a884-3656e5410674)
+![LINK](192.168.0.22:3000)
 <br>
 
 ## 🖼️ UI 스타일 가이드라인
@@ -26,7 +34,7 @@
 ### 폰트 서체
 - Noto Sans KR
 ### 폰트 사이즈
-- 대부분의 폰트 사이즈는 16px로 고정
+- 대부분의 폰트 사이즈는 16~20px로 고정
 ### 컬러 배색
 ![제목 없음](https://github.com/user-attachments/assets/39618556-8c47-4c77-ab5a-6e0f0cd89037)
 ### 여백 및 정렬 여부
@@ -38,6 +46,13 @@
 ### 1. 코드
 - 파일명 '_'(언더바)로 통일 (ex. main_page)
 - prettier 사용하여 정렬 방식 통일
+- ESLint 사용하여 룰셋 적용
+  - eslint:recommended
+    - ESLint에서 기본 제공하는 룰셋
+    - 기본적인 코드 품질을 보장하는 핵심 규칙
+  - airbnb
+      - JavaScript 프로젝트에서 가장 널리 사용되는 스타일 가이드 중 하나
+      - 일관된 코드 스타일과 가독성 향상
 
 ### 2. 브랜치
 - branch 이름은 feat/{feature name}-{name} 으로 통일 (ex. feat/button-hk)
