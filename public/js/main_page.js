@@ -1,5 +1,11 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const images = ["image/type1-1.png", "image/type1-2.png", "image/type1-3.png"];
+    const images = [
+        ["image/type1-1.png", "image/type1-2.png", "image/type1-3.png"],
+        ["image/type2-1.png", "image/type2-2.png", "image/type2-3.png"],
+        ["image/type3-1.png", "image/type3-2.png", "image/type3-3.png"],
+        ["image/type4-1.png", "image/type4-2.png", "image/type4-3.png"],
+        ["image/type5-1.png", "image/type5-2.png", "image/type5-3.png"]
+    ];
     const imageElement = document.querySelector(".small-gray-box img");
     const finalStepElement = document.querySelector(".final-step");
     const totalStepElement = document.querySelector(".total-step");
@@ -13,15 +19,24 @@ document.addEventListener("DOMContentLoaded", () => {
     let inputIndex = 3;
     let comparisonResults = {};
     let resultIndex = 3;
+
+    const typeIndex = Math.floor(Math.random() * images.length);
+    let comparisonIndex = -1;
     function changeImage() {
-        if (initialIndex < images.length) {
-            imageElement.src = images[initialIndex];
+        let imageIndex;
+        do {
+            imageIndex = Math.floor(Math.random() * images[0].length);
+        } while (comparisonIndex === imageIndex);
+
+        comparisonIndex = imageIndex;
+
+        if (initialIndex < 3) {
+            imageElement.src = images[typeIndex][imageIndex];
             initialIndex++;
             centeredTextElement.textContent = "제시되는 도형을 기억해주세요";
         } else {
             initialPhase = false;
-            const randomIndex = Math.floor(Math.random() * images.length);
-            imageElement.src = images[randomIndex];
+            imageElement.src = images[typeIndex][imageIndex];
             centeredTextElement.innerHTML = "화면에 제시되는 도형이 몇 번째 전 도형과 같은지 키보드로 판단해 주세요";
             canReceiveInput = true;
             document.querySelector(".gray-box").classList.remove("selected");
@@ -80,6 +95,9 @@ document.addEventListener("DOMContentLoaded", () => {
             } else if (event.code === "ArrowLeft") {
                 selectedBox = document.querySelector(".gray-box2");
                 userInputs[inputIndex++] = "ArrowLeft";
+            }
+            else {
+                userInputs[inputIndex++] = "null";
             }
             if (selectedBox) {
                 selectedBox.classList.add("selected");
