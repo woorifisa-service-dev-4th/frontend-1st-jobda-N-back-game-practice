@@ -47,14 +47,14 @@ body {
 
 .current-step {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1vw;
     text-align: left;
     margin-right: 10px;
 }
 
 .main_text {
     text-align: left;
-    font-size: 20px;
+    font-size: 1vw;
 }
 
 .box2 {
@@ -142,7 +142,7 @@ body {
 }
 
 .centered-text {
-    font-size: 28px;
+    font-size: 1.2vw;
     font-weight: bold;
     line-height: 1.6;
     color: #333;
