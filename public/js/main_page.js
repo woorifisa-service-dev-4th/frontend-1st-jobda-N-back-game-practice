@@ -10,9 +10,9 @@ document.addEventListener("DOMContentLoaded", () => {
     let displayedImages = [];
     let canReceiveInput = false;
     let userInputs = {};
-    let inputIndex = 0;
+    let inputIndex = 3;
     let comparisonResults = {};
-    let resultIndex = 0;
+    let resultIndex = 3;
     function changeImage() {
         if (initialIndex < images.length) {
             imageElement.src = images[initialIndex];
