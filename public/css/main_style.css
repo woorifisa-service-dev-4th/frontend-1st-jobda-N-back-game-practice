@@ -32,7 +32,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 10px;
 }
 
 .header-left {
@@ -192,7 +191,7 @@ body {
     width: 12vw;
     height: 12vw;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-direction: column;
     margin: 0 3vw;
@@ -206,7 +205,6 @@ body {
     align-items: center;
     width: 12vw;
     height: 3vw;
-    margin-bottom: 1vw;
 }
 
 .specific_image {
@@ -219,4 +217,8 @@ body {
     font-size: 1vw;
     right: -20px;
     font-family: "Noto Sans KR", sans-serif;
+}
+
+.selected {
+    border: 2px solid #281f91;
 }
