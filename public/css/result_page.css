@@ -29,7 +29,6 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
 }
 
 main {
@@ -49,7 +48,7 @@ footer {
 
 .title {
     margin: 1px 0;
-    font-size: 3em;
+    font-size: 2em;
 }
 
 .description {
