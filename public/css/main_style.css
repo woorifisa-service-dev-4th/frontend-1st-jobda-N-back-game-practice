@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap");
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f5f6f8;
+    flex-direction: column;
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+.white-box {
+    background-color: white;
+    padding: 40px;
+    border-radius: 45px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    height: 65%;
+    display: flex;
+    text-align: center;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box-header {
+    width: 100%;
+    background-color: white;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.current-step {
+    font-weight: bold;
+    font-size: 1vw;
+    text-align: left;
+    margin-right: 10px;
+}
+
+.main_text {
+    text-align: left;
+    font-size: 1vw;
+}
+
+.box2 {
+    background-color: white;
+    border: 1px solid #333;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.box3 {
+    background-color: white;
+    border: 1px solid #333;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-left: 20px;
+}
+
+.total-step {
+    position: relative;
+    font-weight: bold;
+    text-align: right;
+    display: inline-block;
+    margin: 10px;
+}
+
+.final-step {
+    position: relative;
+    font-weight: bold;
+    text-align: right;
+    display: inline-block;
+    margin: 10px 20px;
+    color: #281f91;
+}
+
+.progress-container {
+    width: 100%;
+    background: #d3d1eb;
+    display: flex;
+    height: 10px;
+    border-radius: 10px;
+    justify-content: left;
+    margin-bottom: 0;
+}
+
+.progress-bar {
+    width: 0%;
+    height: 10px;
+    background: #281f91;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    animation: progress 3s linear infinite;
+}
+
+@keyframes progress {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+.text-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.centered-text {
+    font-size: 1.2vw;
+    font-weight: bold;
+    line-height: 1.6;
+    color: #333;
+    text-align: center;
+}
+
+.box-main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.small-white-box {
+    background-color: white;
+    padding: 5%;
+    border-radius: 1vw;
+    box-shadow: 0.5vw 0.5vw 1vw rgba(0, 0, 0, 0.1);
+    width: 12vw;
+    height: 12vw;
+    display: flex;
+    justify-content: center;
+    margin: 0 3vw;
+}
+
+.small-gray-box {
+    background-color: #e7e7e7;
+    padding: 5%;
+    border-radius: 1vw;
+    width: 11vw;
+    height: 11vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shape-image {
+    width: 7vw;
+    height: 7vw;
+}
+
+.selection-box {
+    padding: 5%;
+    width: 12vw;
+    height: 12vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 3vw;
+}
+
+.gray-box,
+.gray-box2,
+.gray-box3 {
+    background-color: #d5d5d5;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12vw;
+    height: 3vw;
+}
+
+.specific_image {
+    width: 2vw;
+    height: 2vw;
+    margin-right: 10px;
+}
+
+.specific_text {
+    font-size: 1vw;
+    right: -20px;
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+.selected {
+    border: 2px solid #281f91;
+}

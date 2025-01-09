@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap");
 
 body {
     display: flex;
@@ -7,31 +7,53 @@ body {
     height: 100vh;
     margin: 0;
     background-color: #f5f6f8;
-    font-family: 'Noto Sans KR';
+    font-family: "Noto Sans KR";
 }
 
 .white-box {
     background-color: white;
-    padding: 0px 30px;
+    padding: 40px;
     border-radius: 45px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     width: 80%;
     height: 65%;
     display: flex;
     text-align: center;
+    justify-content: space-between;
+    align-items: center;
     flex-direction: column;
+}
+
+header {
+    width: 100%;
+    display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .title {
     margin: 1px 0;
+    font-size: 2em;
 }
 
 .description {
     margin-bottom: 30px;
-    font-size: 15px;
+    font-size: 1.5em;
     color: #333;
 }
 
@@ -48,7 +70,7 @@ body {
 .container-incorrect {
     display: flex;
     flex-direction: column;
-    background-color: #FF6C6C;
+    background-color: #ff6c6c;
 }
 
 .photo div {
@@ -57,8 +79,8 @@ body {
     align-items: center;
     height: 120px;
     width: 120px;
-    box-sizing: border-box; /* 여백 포함 계산 */
-    border: 1px solid #f5f6f8; /* 각 셀 테두리 */
+    box-sizing: border-box;
+    /* border: 1px solid #f5f6f8; */
 }
 
 .photo img {
@@ -86,16 +108,13 @@ body {
     height: 20px;
     padding: 10px;
     margin-top: 30px;
-    border: 2px solid #FF6C6C;
-    background-color: #FF6C6C;
+    border: 2px solid #ff6c6c;
+    background-color: #ff6c6c;
     color: white;
     border-radius: 5px;
 }
 
 .main-button {
-    position: absolute;
-    bottom: 40px;
-    right: 50px;
     padding: 10px; /* 버튼 크기 */
     cursor: pointer;
     background-color: white;
@@ -109,7 +128,7 @@ body {
     }
 
     .photo {
-        grid-template-columns: repeat(7, 1fr); /* 작은 화면에서는 한 줄에 5개 */
+        grid-template-columns: repeat(5, 1fr); /* 작은 화면에서는 한 줄에 5개 */
     }
 
     .photo div {
@@ -131,7 +150,7 @@ body {
 
 @media (max-width: 700px) {
     .photo {
-        grid-template-columns: repeat(6, 1fr); /* 작은 화면에서는 한 줄에 5개 */
+        grid-template-columns: repeat(5, 1fr); /* 작은 화면에서는 한 줄에 5개 */
     }
 
     .photo div {

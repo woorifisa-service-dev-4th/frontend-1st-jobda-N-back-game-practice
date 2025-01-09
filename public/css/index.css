@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap");
 
 body {
     display: flex;
@@ -8,26 +8,26 @@ body {
     margin: 0;
     background-color: #f5f6f8;
     flex-direction: column;
-    font-family: 'Noto Sans KR', sans-serif;
+    font-family: "Noto Sans KR", sans-serif;
 }
 
 h1 {
     margin: 5% 0;
-    font-size: 3vw;
+    font-size: 2.5vw;
 }
 
 .white-box {
     background-color: white;
-    padding: 5%;
+    padding: 40px;
     border-radius: 45px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     width: 80%;
     height: 65%;
     display: flex;
     text-align: center;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .shapes-container {
@@ -39,40 +39,45 @@ h1 {
     margin: 5% 0;
 }
 
-.shape-odd {
+.shape {
     width: 4vw;
     height: 4vw;
-    animation: bounce 1s infinite;
-}
-
-.shape-even {
-    width: 4vw;
-    height: 4vw;
-    animation: bounce 1.6s infinite;
+    animation: bounce 2s infinite;
+    animation-delay: calc(var(--random) * 1s);
 }
 
 @keyframes bounce {
-	0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
-	40% {transform: translateY(-30px);}
-	60% {transform: translateY(-15px);}
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
 }
 
 .round-button {
     display: inline-block;
-    padding: 1.5vw 3vw;
-    font-size: 1.5vw;
+    padding: 1vw 3vw;
+    font-size: 1vw;
     font-weight: bold;
     color: white;
-    background-color: #00DDB8;
+    background-color: #00ddb8;
     border: none;
     border-radius: 70px;
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
     cursor: pointer;
     text-align: center;
-    font-family: 'Wanted Sans', sans-serif;
+    font-family: "Noto Sans KR", sans-serif;
     margin: 25% 0;
 }
 
 .round-button:hover {
-    background-color: #00C4A1;
+    background-color: #00c4a1;
 }
