@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
         ["image/type2-1.png", "image/type2-2.png", "image/type2-3.png"],
         ["image/type3-1.png", "image/type3-2.png", "image/type3-3.png"],
         ["image/type4-1.png", "image/type4-2.png", "image/type4-3.png"],
-        ["image/type5-1.png", "image/type5-2.png", "image/type5-3.png"],
+        ["image/type5-1.png", "image/type5-2.png", "image/type5-3.png"]
     ];
     const imageElement = document.querySelector(".small-gray-box img");
     const finalStepElement = document.querySelector(".final-step");
