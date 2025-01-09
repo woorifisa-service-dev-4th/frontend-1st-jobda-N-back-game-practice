@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap");
 
 body {
     display: flex;
@@ -7,7 +7,7 @@ body {
     height: 100vh;
     margin: 0;
     background-color: #f5f6f8;
-    font-family: 'Noto Sans KR';
+    font-family: "Noto Sans KR";
 }
 
 .white-box {
@@ -70,7 +70,7 @@ footer {
 .container-incorrect {
     display: flex;
     flex-direction: column;
-    background-color: #FF6C6C;
+    background-color: #ff6c6c;
 }
 
 .photo div {
@@ -108,8 +108,8 @@ footer {
     height: 20px;
     padding: 10px;
     margin-top: 30px;
-    border: 2px solid #FF6C6C;
-    background-color: #FF6C6C;
+    border: 2px solid #ff6c6c;
+    background-color: #ff6c6c;
     color: white;
     border-radius: 5px;
 }
