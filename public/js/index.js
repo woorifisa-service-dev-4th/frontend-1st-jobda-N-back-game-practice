@@ -1,12 +1,11 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const shapes = document.querySelectorAll('.shapes-container img');
+    const shapes = document.querySelectorAll(".shapes-container img");
 
-    shapes.forEach(shape => {
+    shapes.forEach((shape) => {
         const randomDelay = Math.random();
-        shape.style.setProperty('--random', randomDelay);
+        shape.style.setProperty("--random", randomDelay);
     });
 });
-
 
 const button = document.querySelector("button");
 
