@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
         ["image/type2-1.png", "image/type2-2.png", "image/type2-3.png"],
         ["image/type3-1.png", "image/type3-2.png", "image/type3-3.png"],
         ["image/type4-1.png", "image/type4-2.png", "image/type4-3.png"],
-        ["image/type5-1.png", "image/type5-2.png", "image/type5-3.png"]
+        ["image/type5-1.png", "image/type5-2.png", "image/type5-3.png"],
     ];
     const imageElement = document.querySelector(".small-gray-box img");
     const finalStepElement = document.querySelector(".final-step");
@@ -49,9 +49,9 @@ document.addEventListener("DOMContentLoaded", () => {
             const twoBackImage = displayedImages[displayedImages.length - 3];
             const threeBackImage = displayedImages[displayedImages.length - 4];
             if (currentImage === twoBackImage) {
-                comparisonResults[resultIndex++] = "LeftArrow";
+                comparisonResults[resultIndex++] = "ArrowLeft";
             } else if (currentImage === threeBackImage) {
-                comparisonResults[resultIndex++] = "RightArrow";
+                comparisonResults[resultIndex++] = "ArrowRight";
             } else {
                 comparisonResults[resultIndex++] = "Space";
             }
@@ -89,14 +89,13 @@ document.addEventListener("DOMContentLoaded", () => {
             if (event.code === "Space") {
                 selectedBox = document.querySelector(".gray-box");
                 userInputs[inputIndex++] = "Space";
-            } else if (event.code === "RightArrow") {
+            } else if (event.code === "ArrowRight") {
                 selectedBox = document.querySelector(".gray-box3");
                 userInputs[inputIndex++] = "ArrowRight";
-            } else if (event.code === "LeftArrow") {
+            } else if (event.code === "ArrowLeft") {
                 selectedBox = document.querySelector(".gray-box2");
                 userInputs[inputIndex++] = "ArrowLeft";
-            }
-            else {
+            } else {
                 userInputs[inputIndex++] = "null";
             }
             if (selectedBox) {
