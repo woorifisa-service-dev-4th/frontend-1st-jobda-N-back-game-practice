@@ -89,10 +89,10 @@ document.addEventListener("DOMContentLoaded", () => {
             if (event.code === "Space") {
                 selectedBox = document.querySelector(".gray-box");
                 userInputs[inputIndex++] = "Space";
-            } else if (event.code === "ArrowRight") {
+            } else if (event.code === "RightArrow") {
                 selectedBox = document.querySelector(".gray-box3");
                 userInputs[inputIndex++] = "ArrowRight";
-            } else if (event.code === "ArrowLeft") {
+            } else if (event.code === "LeftArrow") {
                 selectedBox = document.querySelector(".gray-box2");
                 userInputs[inputIndex++] = "ArrowLeft";
             }
